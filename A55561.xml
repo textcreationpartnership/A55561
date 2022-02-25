@@ -1,0 +1,960 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatise concerning the East India trade being a most profitable trade to the kingdom, and best secured and improved by a company and a joint-stock / wrote at the instance of Thomas Papillon, Esq. and in his house, and printed in the year 1680 ; and now reprinted for the better satisfaction of himself and others.</title>
+            <author>Papillon, Thomas, 1623-1702.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1696</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 70 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55561</idno>
+            <idno type="STC">Wing P307</idno>
+            <idno type="STC">ESTC R5275</idno>
+            <idno type="EEBO-CITATION">13084313</idno>
+            <idno type="OCLC">ocm 13084313</idno>
+            <idno type="VID">97277</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55561)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 97277)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 747:38)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatise concerning the East India trade being a most profitable trade to the kingdom, and best secured and improved by a company and a joint-stock / wrote at the instance of Thomas Papillon, Esq. and in his house, and printed in the year 1680 ; and now reprinted for the better satisfaction of himself and others.</title>
+                  <author>Papillon, Thomas, 1623-1702.</author>
+               </titleStmt>
+               <extent>[2], 27 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1696.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>East India Company.</term>
+               <term>East Indies --  Commerce --  Great Britain.</term>
+               <term>Great Britain --  Commerce --  East Indies.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:97277:1"/>
+            <pb facs="tcp:97277:1"/>
+            <p>A TREATISE Concerning <hi>The Eaſt-India-Trade:</hi> BEING A moſt Profitable TRADE TO THE
+KINGDOM, And Beſt Secured and Improved by A COMPANY AND A JOINT-STOCK.</p>
+            <p>Wrote at the Inſtance of <hi>THOMAS PAPILLON,</hi> 
+               <abbr>Eſq</abbr> And in his HOUSE, and
+Printed in the Year 1680. <hi>And now Reprinted for the better ſatisfaction of himſelf and
+others.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed in the Year MDCXCVI.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:97277:2"/>
+            <pb n="1" facs="tcp:97277:2"/>
+            <head>The <hi>Eaſt-India</hi>-Trade a moſt profitable Trade to the Kingdom,
+<hi>&amp;c.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>YOur kind Reception of my former, doth encourage me to anſwer your deſire in part, and to
+give you my thoughts more particularly touching the great advantage that re<g ref="char:EOLhyphen"/>dounds to the Kingdom
+by the <hi>Eaſt-India</hi> Trade, and ſome Reaſons why I conceive the ſaid Trade cannot
+ſo well be car<g ref="char:EOLhyphen"/>ried on or managed for the Publick good, in any other way than by a Company in a
+Joint-Stock.</p>
+            <p>In order hereunto, give me leave in the firſt place to ſay ſome<g ref="char:EOLhyphen"/>thing of Trade in general,
+which may not only give ſome light for the better underſtanding the <hi>India</hi>-Trade, but
+alſo obviate ſome Objections that are frequently made againſt it.</p>
+            <p>Trade may be diſtinguiſhed into Foreign and Domeſtick; the latter would be very
+inconſiderable, but in ſubſerviency to the for<g ref="char:EOLhyphen"/>mer; Trade confined amongſt our ſelves,
+procures little advantage to the Kingdom; no more than the buying and ſelling of Land, one hath
+more, and another hath leſs; the Owners are changed, but the Land is ſtill the ſame. <hi>It
+is Foreign Trade, that is the great Intereſt and Concern of the Kingdom; without Foreign Trade,
+all, or the moſt part of thoſe Studies that render Perſons ſo Renowned, would be of little
+ſignification to the Publick.</hi> What is all knowledge, if it be not improved to practice, but
+empty no<g ref="char:EOLhyphen"/>tions? If the People of this Iſland were learned in all Languages, did know the
+Scituation of all Places and Countries, and the nature of all Commodities, were acquainted with the
+order and motion of all the Stars, knew how to take the Latitude and Longitude, and
+<pb n="2" facs="tcp:97277:3"/>were perfectly read in the Art of Navigation, to what purpoſe would all be? If
+there were no Foreign Trade, we ſhould have no Ships to Navigate to thoſe Countries, nor
+occaſion to make uſe of thoſe Languages, nor any advantage by thoſe Commodities: what would
+this Iſland be, without Foreign Trade, but a place of Confinement to the Inhabitants? who
+(without it) could be but a kind of Hermites, as being ſeparated from the reſt of the World.
+It's Foreign Trade that renders us Rich, Ronourable and Great, that gives us a name and eſteem in
+the World, that makes us Ma<g ref="char:EOLhyphen"/>ſters of the Treaſures of other Countries, and begets and
+main<g ref="char:EOLhyphen"/>tains our Ships and Seamen, the Walls and Bulwarks of our Coun<g ref="char:EOLhyphen"/>trey. <hi>Were it not for
+Foreign Trade, what would become of the Revenue of Six to Eight Hundred Thouſand Pounds <hi>per
+Annum</hi> for Cuſtoms r And what would the Rents of our Lands be?</hi> The Cuſtoms would
+totally fail, and our Gentlemens Rents of Thou<g ref="char:EOLhyphen"/>ſands <hi>per Annum,</hi> would dwindle into
+leſs than Hundreds.</p>
+            <p>But all Foreign Trade is not alike advantageous to the King<g ref="char:EOLhyphen"/>dom. Certainly that cannot be
+ſuppoſed. There may be ſuch a Trade to ſome places under ſuch Circumſtances, as
+inſtead of bring<g ref="char:EOLhyphen"/>ing advantage, and adding to the Stock of the Kingdom, may be very detrimental
+and deſtructive, by waſting and conſuming our Stock and Treaſure. A Trade, that takes off
+little from us in Com<g ref="char:EOLhyphen"/>modities, and furniſheth us with little or no Goods for our Foreign vent in
+other places, but with abundance of either unneceſſary and ſuperfluous things to feed our
+vain humours and fancies, or with ſuch, though uſeful, as hinder the conſumption of our own
+Manufa<g ref="char:EOLhyphen"/>ctures, can never be profitable but deſtructive; <hi>and ſuch a Trade is that to</hi>
+France, as it lies under thoſe exorbitant Impoſitions on our Manufactures, of 50 to 60 <hi>per
+Cent</hi> amounting almoſt to a prohibition; whereas there was formerly vended in that Kingdom
+annually to the amount of 600 Thouſand Pounds in <hi>Engliſh</hi> Drape<g ref="char:EOLhyphen"/>ry, there is now hardly
+vended Fifty Thouſand Pounds worth; and yet our Receipts from them, in Wines, Linnens, Paper,
+Silks, Gar<g ref="char:EOLhyphen"/>ments ready made, Beds, and an innumerable company of Toys and Trinkets, is greatly
+augmented; So that our Receipts from <hi>France</hi> in unneceſſary and ſuperfluous things,
+or in ſuch Commo<g ref="char:EOLhyphen"/>dities as hinder the uſe of our own Manufactures, and ſerve not to ſupply
+other Foreign Markets, exceeding by many hundred thou<g ref="char:EOLhyphen"/>ſands annually what that Countrey takes
+from us in Commodities: That Trade under ſuch Circumſtances cannot be otherwiſe than very
+ruinous and deſtructive.</p>
+            <pb n="3" facs="tcp:97277:3"/>
+            <p>Other Foreign Trades that are profitable to the Kingdom, yet are not equally ſo; ſome take
+off more of our Native Commodies and Manufactures, furniſh us with more uſeful and
+neceſſary Com<g ref="char:EOLhyphen"/>modities at cheaper rates for our Conſumption, ſupply us with Ma<g ref="char:EOLhyphen"/>terials for
+Manufactures, or with Commodities to be tranſported to other Countries, for a further enlargement
+of our Trade, than others. Some Trades employ a greater number of <hi>Engliſh</hi> Ships,
+occaſion the building and maintaining Ships of greater burden and force, whereby an addition is
+made to the ſtrength of the King<g ref="char:EOLhyphen"/>dom, than others; And ſome Trades bring in a greater Revenue
+to His Majeſty, whereby the Publick Charge of the Kingdom is ſup<g ref="char:EOLhyphen"/>plyed without, or with leſs
+Taxes on the People, than others. Of all which matters a due conſideration is to be had in the
+examination of the diſtinct Trades, to find out which is moſt profitable and be<g ref="char:EOLhyphen"/>neficial to the
+Kingdom.</p>
+            <p>It is a Maxim generally received and approved, in reference to Foreign-Trade, and taken as a
+Rule to meaſure any Trade by, Whe<g ref="char:EOLhyphen"/>ther it be profitable to the Kingdom or not, That where the
+Gods Exported are leſs in value than the Goods imported, the Kingdom loſeth by that Trade;
+Becauſe what falls ſhort, muſt be ſupplyed by Money: And on the other hand, when the
+Exports are more than the Imports, the Treaſure and Stock of the Kingdom is encreaſed by ſuch
+a Trade: It being neceſſarily ſuppoſed, That the overplus is returned in Bullion.</p>
+            <p>This Rule ſeems to be taken from the conſideration of the whole Kingdom as to its Trade with
+Foreign parts, under the notion of a ſingle perſon poſſeſſing and managing an Eſtate
+or Farm. If he do not raiſe from his Eſtate or Farm to ſell for a greater value than to
+purchaſe what he does and muſt neceſſarily buy in, for the ſup<g ref="char:EOLhyphen"/>ply of his Farm and
+Houſhold, he cannot advance thereby; If his Receipts exceed his Payments, there is an addition to
+his Stock; if his Payments ſurpaſs his Receipts, he runs in debt, and decays in his Eſtate. A
+Gentleman that ſpends every year more than his Reve<g ref="char:EOLhyphen"/>nue or Income, will in time have no Revenue
+at all.</p>
+            <p>This notion is undoubtedly very good, and may by a due conſi<g ref="char:EOLhyphen"/>deration of it under ſeveral
+and various circumſtances, be improved and made uſe of to explain the matters of Foreign-Trade,
+in refe<g ref="char:EOLhyphen"/>rence to the Kingdom, ſo as to render the ſame intelligible to all Perſons; for it
+will not only ſhew us, That we decay in our Stock, when the coſt of what we ſpend and
+conſume is more than we can
+<pb n="4" facs="tcp:97277:4"/>purchaſe by what we ſell of our own product and manufacture; but alſo, that
+it is our Intereſt neither to permit idleneſs nor profuſeneſs, but to give all
+encouragement to labour and induſtry; to improve by manufacturing what we have of our own growth,
+and to carry the Goods we ſell, and to fetch the Goods we need, to, and from the beſt Markets
+by our own Teem, <hi>i. e.</hi> in our own Shipping, <hi>&amp;c.</hi>
+            </p>
+            <p>Yet notwithſtanding, the ſaid Rule, as it is generally taken and ſtraitned, is not an
+adequate Rule to meaſure the whole extent of Foreign-Trade by; for it ſuppoſeth only a
+Trading in Commodi<g ref="char:EOLhyphen"/>ties, and makes Money, <hi>i. e.</hi> Gold and Silver, to be the fixed Stock and
+Riches of the Kingdom; and not improvable in the Trade, but increaſed or diminiſhed, as it
+ſupplys only to anſwer the Ba<g ref="char:EOLhyphen"/>lance of the Trade of Commodities. <hi>Whereas in truth the Stock
+and Riches of the Kingdom, cannot properly be confined to Money, nor ought Gold and Silver to be
+excluded from being Merchandiſe, to be Traded with, as well as any other ſort of
+Goods.</hi>
+            </p>
+            <p>It is true, that uſually the meaſure of Stock or Riches is accoun<g ref="char:EOLhyphen"/>ted by Money; but that is
+rather in imagination than reality: A Man is ſaid to be worth Ten Thouſand Pounds, when
+poſſibly he hath not One Hundred Pounds in ready Money; but his Eſtate, if he be a Farmer,
+conſiſts in Land, Corn, or Cattle, and Husbandry Im<g ref="char:EOLhyphen"/>plements: If a Merchant, in Goods and
+Merchandiſe at home, or Adventures abroad, or in Shipping; in like manner the Stock or Riches of
+the Kingdom doth not only conſiſt in our Money, but alſo in our Commodities and Ships for
+Trade, and in our Ships of War, and Magazines furniſhed with all neceſſary Materials: And if
+we conſider the very notion before-mentioned, from whence the Rule is taken, and ſuppoſe the
+perſon poſſeſſing and managing the Farm, to have attained to a Stock of Money over and
+above what is neceſſary for the carrying on the concern of his Farm. Who would not count him a
+ridiculous Fool, to let his Money lie in his Cheſt idle, that as he can vend more Goods from his
+Farm than will anſwer for the coſt of what he needs to buy in, he may add farther to it; there
+to let it lie buried and uſeleſs, whereas he might with his Money have bought Goods at one
+Market, where they were cheap, and carried them to another Market where they were dea<g ref="char:EOLhyphen"/>rer, and ſo
+together with the benefit of the Carriage, have added much more to his Stock? <hi>Thus in reference
+to the Foreign Trade of the Kingdom; if Gold and Silver muſt be confined within our</hi>
+               <pb n="5" facs="tcp:97277:4"/>Walls, <hi>i. e. <hi>the Seas that inviron us, it is rendred fruitleſs, and
+yields no encreaſe to the Kingdoms Capital.</hi>
+               </hi> Suppoſe a Foreign-place, where
+Commodities cannot be purchaſed but with Money or Bullion, and that 100 thouſand pounds in
+Bullion laid out there, ſhould purchaſe ſuch quantity of Goods as would yield on ſale in
+ſome other Foreign parts 200, to 250 Thouſand Pounds, to be re<g ref="char:EOLhyphen"/>turned to <hi>England;</hi> were
+it not for the Kingdoms Intereſt to em<g ref="char:EOLhyphen"/>brace ſo gainful a Trade? and ſhould we not count him
+either igno<g ref="char:EOLhyphen"/>rant or an Enemy to his Countrey, that did oppoſe it? The <hi>Hollanders</hi> that
+did encreaſe to ſo great wealth, glory, and ſtrength before this laſt War, was it by
+impriſoning their Gold and Silver, and confining their Foreign Trade to the Goods of their own
+Product and Manu<g ref="char:EOLhyphen"/>facture? No ſuch matter: For they had little or nothing of their own Product;
+but by liberty of Tranſporting Bullion, and by fet<g ref="char:EOLhyphen"/>ching Goods and Merchandize from one place,
+and carrying them to another, according to the proper Markets and Seaſons, they did in a great
+meaſure obtain their Riches and Glory.</p>
+            <p>It is a great miſtake, though a common one, to think, <hi>that it is the plenty or ſcarcity
+of Money that is the cauſe of a good or bad Trade:</hi> It is true, when the Trade is quick and
+good. Money is more ſeen, and changeth hands ten times for what it doth when the Trade is dull
+and dead; ſo that One Hundred Pounds in a time of quick Trading, makes as great an appearance as
+One Thouſand Pounds in a time of dead Trading. It is not ſo much the Money that influenceth the
+Trade, <hi>as it is the Trade that diſcovers the Money,</hi> which otherwiſe would lie hid. I
+am confident, there ne<g ref="char:EOLhyphen"/>ver was more Money in the Kingdom, though by reaſon of the dead<g ref="char:EOLhyphen"/>neſs of
+Trade in general, and paucity of good Security, it walks not ſo much abroad.</p>
+            <p>Having ſaid thus much of Trade in general, I now proceed par<g ref="char:EOLhyphen"/>ticularly, in anſwer to your
+deſire, to ſhew the profitableneſs of the <hi>India</hi>-Trade, and that it is beſt managed
+in the way of a Com<g ref="char:EOLhyphen"/>pany, and a Joynt-Stock.</p>
+            <div type="part">
+               <pb n="6" facs="tcp:97277:5"/>
+               <head>
+                  <hi>I.</hi> That the <hi>Eaſt-India</hi>-Trade is A moſt (if not The moſt) profitable
+and beneficial Trade to the King<g ref="char:EOLhyphen"/>dom.</head>
+               <p>THE extraordinary Endeavours of moſt of the <hi>European</hi> Na<g ref="char:EOLhyphen"/>tions to compaſs and gain
+the <hi>Eaſt-India</hi>-Trade to them<g ref="char:EOLhyphen"/>ſelves, or at leaſt to have a great ſhare in it,
+together with the ſucceſs of the <hi>Dutch</hi> therein, and the vaſt advantage they have
+reaped from thence, being a main cauſe of that Wealth and Grandeur which hath rendred them ſo
+redoubtable to, and en<g ref="char:EOLhyphen"/>vied by all their Neighbous, may give an undeniable teſtimony of the
+beneficialneſs of this Trade. But it will be needleſs to inſiſt thereon, or to call in
+Witneſſes from abroad: for from the con<g ref="char:EOLhyphen"/>ſideration of the Trade it ſelf, there will ariſe
+ſufficient to evi<g ref="char:EOLhyphen"/>dence by Demonſtration, that it is ſo; and in conſequence, That it is the
+Kingdoms Intereſt to uphold, maintain and encourage the ſame.</p>
+               <p>It is a Trade</p>
+               <p>That takes off a conſiderable quantity of our Na<g ref="char:EOLhyphen"/>tive Commodities and Manufactures, though not
+altogether ſo much as ſome other Trades do.</p>
+               <p>That ſupplies us with moſt neceſſary and uſeful Commodities for our Conſumption, at
+the cheapeſt Rates.</p>
+               <p>That brings us ſome Commodities for further Manufacture.</p>
+               <p>That furniſheth us with large quantities of Goods for Fo<g ref="char:EOLhyphen"/>reign-Markets.</p>
+               <p>That gives enployment to, and ſo maintains great number of <hi>Engliſh</hi> Shipping.</p>
+               <p>That occaſions the building of more Ships of burden and force, fit for War-like ſervice, and
+defence of the Kingdom, than any other Trade.</p>
+               <p>That brings in a conſiderable Revenue to his Majeſties Ex<g ref="char:EOLhyphen"/>chequer by Cuſtoms, and the
+greateſt addition to the Kingdoms Stock.</p>
+               <p>The better and more convincingly to manifeſt all which, I ſhall with all candor and
+moderation give you a ſtate of the ſaid Trade, both in the plain and direct courſe of it, and
+alſo in the conſequences depending upon it.</p>
+            </div>
+            <div type="part">
+               <pb n="7" facs="tcp:97277:5"/>
+               <head>A State of the Trade of <hi>India</hi> in Reference to the Kingdoms Concern: Firſt in the
+plain and direct courſe of it.</head>
+               <p>THere are generally employed in this Trade in a direct courſe to, and from <hi>India,</hi> 30
+to 35 great Ships, from 300 to 600 Tuns burden, and within ſix or ſeven years laſt paſt,
+there hath been built new from the Stocks, about 26 to 28 Ships, from 350 to 600 Tuns burden;
+purely on the hopes of the Companies Employ<g ref="char:EOLhyphen"/>ment, and the Encouragement the Company have propounded
+and given of 20 <hi>ſh. per</hi> Tun extraordinary Freight, the two firſt Voya<g ref="char:EOLhyphen"/>ges; which
+amounts from 700 to 1200 Pounds a Ship, according to their burden. By which means there is a very
+large addition of ſtrength for defence of the Kingdom, in caſe of War; the ſaid Ships fitted
+in a Warlike Equipage, will carry from 40 to 60 and 70 Guns; and of how great Concern this is to
+the Nation, Judici<g ref="char:EOLhyphen"/>ous perſons, that conſider the preſent ſtate of Affairs, will eaſily
+judge.</p>
+               <p>The Exports of the Company in one year, as it was in the end of <hi>Anno</hi> 1674. and
+beginning of <hi>Anno</hi> 1675, may be about 430 thouſand pounds: whereof about 320 thouſand
+pounds in Bullion, and about 110 thouſand pounds value in Cloth, and other Goods.</p>
+               <p>The Returns of the ſaid Adventure brought home for <hi>England</hi> by the Company, in
+Callico, Pepper, Saltpeter, Indigo, Silk, Wrought-Silks, and ſome Drugs, and other Commodities,
+may on ſale in <hi>England</hi> produce at leaſt 860 thouſand pounds, and often<g ref="char:EOLhyphen"/>times much
+more.</p>
+               <p>His Majeſties Cuſtoms, Freights of Ships, and all other charges of Officers, Warehouſes,
+Lighters, Carts, Porters, and ſuch like, will amount to a very great ſum; but all this being
+payable in <hi>England,</hi> it is altogether as much the Kingdoms Stock, as the clear profit added
+to the Companies Stock is.</p>
+               <p>So that there is in a plain and direct way, added to the Stock of the Kingdom by the Companies
+Trade in one year, if no accident intervene, 430 thouſand pounds.</p>
+               <p>If any ſhall ſuggeſt, That the charges in <hi>India,</hi> for maintenance of Factors,
+Factories, Forts, Garriſons, Negotiations with Prin<g ref="char:EOLhyphen"/>ces,
+<pb n="8" facs="tcp:97277:6"/>and other charges and expences in <hi>India,</hi> which may amount to 50 or 60
+thouſand pounds, is ſo much paid abroad, and therefore ought to be deducted; I will not
+diſpute it, but wave what might be ſaid thereto: And yet there will remain a clear addition to
+the Stock of the Kingdom, by the joint Trade of the Company, only of 370 thouſand pounds.</p>
+               <p>And then if you conſider the private Trade, allowed by the Com<g ref="char:EOLhyphen"/>pany to Owners of Ships,
+Commanders and Seamen, as alſo to their Factors, and to all Adventurers, for Diamonds, Pearls,
+Musk, Am<g ref="char:EOLhyphen"/>bergreece, and ſuch like Commodities: In reference to which, there may be Exported in
+Goods about 40 to 50 thouſand pounds, and in Bullion about 80 to 100 thouſand pounds; which
+returned into <hi>England</hi> may yield on ſale 250, to 300 thouſand pounds: the profit
+thereon being 130 thouſand pounds, is ſo much further addition to the Stock of the Kingdom,
+which joyned to the other, makes it 500 thouſand pound added to the Kingdoms Stock in one year by
+the <hi>India</hi>-Trade, in a direct courſe, beſides all the conſequences de<g ref="char:EOLhyphen"/>pending further
+thereupon; which come next to be conſidered.</p>
+            </div>
+            <div type="part">
+               <head>
+                  <hi>Secondly,</hi> The State of the <hi>India</hi>-Trade in the Con<g ref="char:EOLhyphen"/>ſequences depending
+thereupon.</head>
+               <p n="1">I. FIrſt, in Reference to the Exports.</p>
+               <p>The great Objection againſt this Trade, becauſe of the Exporting ſo great a quantity of
+Gold and Silver out of the King<g ref="char:EOLhyphen"/>dom, for the carrying it on, is already obviated in a great
+meaſure, in what hath been ſaid of Trade in general; and I may have further occaſion to
+ſpeak to it in the following Diſcourſe, and therefore wave it here.</p>
+               <p>The Goods Tranſported to the amount of 110 thouſand pounds, may conſiſt of about 60 or
+70 thouſand pounds in <hi>Engliſh</hi> Goods, and the reſt in Foreign Commodities.</p>
+               <p>The <hi>Engliſh</hi> Goods are chiefly Drapery, Tynn and Lead; and whereas it may be
+ſuppoſed, That though we had no Trade for <hi>India,</hi> yet if any of our Neighbours did
+Trade thither, ſo much of our Lead might be taken from us by them, as could well be vended in
+<hi>India.</hi> I ſhall forbear to ſay any thing of that Commodity. But as to the Drapery and
+Tynn, which amounts to the value of 50 to 60 thouſand pounds; in caſe the <hi>Engliſh</hi>
+had no Trade to <hi>India,</hi>
+                  <pb n="9" facs="tcp:97277:6"/>the Kingdom would loſe the Sale of ſo much of thoſe Commodities as is
+uſually ſent there; and in effect, the whole value, being 50 thou<g ref="char:EOLhyphen"/>ſand pounds, on the other
+hand by this Trade the Kingdom gains or makes 50 thouſand pounds of that which otherwiſe would
+yield nothing. <hi>No other Nation doth carry</hi> Engliſh <hi>Cloth to</hi> India, and all
+Foreign Markets where there is no obſtruction by Prohibitions, or Impoſitions, are fully
+ſupplied with as much and more than they can vend. And for Tynn, there is vaſt quantities in
+ſome parts of <hi>India;</hi> the <hi>Dutch</hi> during the time of the late preemption of Tynn,
+having brought home in two years, 4 or 500 Tuns. And it might be more advantageous to the
+<hi>Engliſh</hi> Company, not only to Tranſport Tynn from one part of <hi>India</hi> to
+another, rather than to ſend it from <hi>England;</hi> but alſo to bring Tynn from
+<hi>India</hi> to <hi>England</hi> for Ballaſt of their Ships that come with Pepper from
+<hi>Bantam,</hi> did they not prefer the Kingdoms Intereſt before their private profit.</p>
+               <p n="2">II. In Reference to the Returns from <hi>India.</hi>
+               </p>
+               <p>There may be ſpent and conſumed ordinarily within the King<g ref="char:EOLhyphen"/>dom, according to the neareſt
+Calculation I can make, to the value of 200 to 230, or 240 thouſand pounds in <hi>India</hi>
+Goods; <hi>viz.</hi> a<g ref="char:EOLhyphen"/>bout ſix thouſand pounds-worth of Pepper, 24 to 30 thouſand
+pounds-worth of Saltpeter, 25 to 30 thouſand pounds-worth of Silk and Silks, 130 to 160
+thouſand pounds-worth of Callico's, and about 10 to 15 thouſand pounds-worth of Indigo, and
+other Drugs. <hi>All the reſt of the Returns above mentioned, amounting in value to</hi> 630
+<hi>thouſand pounds, or thereabouts, are Tranſported to Foreign Markets, as alſo moſt part
+of the private Trade.</hi>
+               </p>
+               <p>The <hi>Pepper</hi> I reckon at 8 <hi>d.</hi> the pound; and it is the moſt neceſ<g ref="char:EOLhyphen"/>ſary
+Spice, and of that uſe, that in former times it hath ſold for 3 <hi>ſh.</hi> 4 <hi>d.</hi>
+the pound: It is not to be had but from <hi>India;</hi> and if the <hi>Engliſh</hi> had no
+<hi>Eaſt India</hi> Trade, it muſt be purchaſed from the <hi>Hollander;</hi> who, if they had
+it all in their own hands, might raiſe it to the ſame rate they do their other Spices, whoſe
+firſt coſt in <hi>India</hi> is much the ſame. But ſuppoſe it might come at 16 <hi>d.
+per</hi> pound, which is the leaſt rate we could expect it at; it would be annually a further
+expence and charge to the Nation of <hi>at leaſt ſix thouſand pounds.</hi>
+               </p>
+               <p>The <hi>Saltpeter</hi> is of that abſolute neceſſity, that without it, we ſhould be
+<hi>like the</hi> Iſraelites <hi>under the Bondage of the</hi> Philiſtines, without means of
+defending our ſelves: If we had no <hi>India</hi>-Trade, poſſibly in time of Peace we might
+purchaſe it, though it would
+<pb n="10" facs="tcp:97277:7"/>coſt us double what now it doth. <hi>But in caſe of War, where could we have
+ſufficient?</hi> would our Enemies be ſo kind as to furniſh us? It is ill truſting to that:
+Would our Gentlemen, Citizens, and Farmers, be willing to have their Cellars and Rooms dug up, and
+to be deprived of freedom in their own houſes, while they are expoſed and laid open to
+Saltpeter men? yet if that ſhould be, beſides the horrible inconvenience and vexation there<g ref="char:EOLhyphen"/>of,
+it would be far ſhort of ſupplying us, conſidering the vaſt ex<g ref="char:EOLhyphen"/>pence in Sea fights: What
+uſe will our Ships and Guns be of, if we want Powder?</p>
+               <p>
+                  <hi>Silk</hi> is a Commodity that receives a farther Manufacture here; and though 'tis
+poſſible we may be ſupplied with Silk from other places, yet not at ſo cheap terms, as from
+<hi>India;</hi> and for Taffita's, and other wrought <hi>India</hi>-Silks, <hi>they ſerve
+inſtead of ſo much</hi> Italian <hi>and</hi> French-<hi>Silks.</hi> whereof otherwiſe, we
+ſhould uſe a far greater quantity, which would coſt the Nation almoſt treble the price of
+<hi>India</hi>-Silks; and ſo augment the Kingdoms charge and expence above 20 thouſand pounds
+<hi>per annum.</hi>
+               </p>
+               <p>Callico <hi>is a moſt uſeful and neceſſary Commodity, and ſerves inſtead of the like
+quantity of</hi> French, Dutch, <hi>and</hi> Flanders <hi>Lin<g ref="char:EOLhyphen"/>nen, which would coſt at leaſt
+thrée times the price of it.</hi> And hereby the Nation hath a very great benefit, not only
+as it ſaves two or three 100 thouſand pounds in its expence; but alſo as it hinders <hi>ſo
+far the enriching thoſe Neighbour-Nations,</hi> from whoſe greatneſs this Kingdom might fear
+moſt prejudice.— It were to be wiſhed that people would uſe more Woollen of our own
+Manufacture, which might ſerve for many occaſions in lieu of Linnen; but we ſee, ſuch is
+the preſent humour, that an Act of Parliament hath prevailed nothing in a matter of this kind.
+Without queſtion it would be much the Intereſt of this Kingdom to promote and encourage the
+Manufacture of Linnen in <hi>Ireland;</hi> whereby it might not only enrich that Kingdom, rather
+than a Foreign Countrey; but alſo by diverſion prevent the encreaſe of the Wollen Manufacture
+there; which otherwiſe in time will deſtroy the Staple-Manufacture of Drapery in
+<hi>England,</hi> and there<g ref="char:EOLhyphen"/>by exceedingly impoveriſh it. In the mean time, it is certainly much
+better for the Kingdom to <hi>expend</hi> 150 <hi>thouſand pounds in</hi> Callico, <hi>than</hi>
+4 <hi>or</hi> 500 <hi>thouſand pounds in</hi> French, Dutch, <hi>and</hi> Flanders
+<hi>Linnen:</hi> And if the linnen Manufacture were ſettled in <hi>Ireland,</hi> ſo as to
+ſupply this Kingdom, the Callico now con<g ref="char:EOLhyphen"/>ſumed
+<pb n="11" facs="tcp:97277:7"/>here, might be tranſported to other Markets abroad, and ſo bring a farther
+Addition of Stock to the Nation.</p>
+               <p>
+                  <hi>Indigo</hi> is a neceſſary Commodity, uſed for the Dying and per<g ref="char:EOLhyphen"/>fecting of our own
+Manufactures. And for the other Drugs and Commodities brought from <hi>India,</hi> and expended in
+<hi>England,</hi> the value is not conſiderable.</p>
+               <p>The greateſt part of all the Returns from <hi>India, <hi>are Tranſported to
+Foreign-Markets;</hi>
+                  </hi> viz. <hi>to</hi> France, Holland, Spain, Italy, Turky, <hi>&amp;c.</hi>
+whereby thoſe Trades are the better carried on by the <hi>Engliſh,</hi> to a further advantage
+of the Kingdom.</p>
+               <p>The value of 630 thouſand pounds in <hi>India</hi> Goods of the Com<g ref="char:EOLhyphen"/>panies Returns, and 200
+thouſand pounds-worth of private Tra<g ref="char:EOLhyphen"/>ders, at leaſt, Tranſported into Foreign parts by
+<hi>Engliſh</hi> Merchants, cannot be Calculated to yield leſs than ten <hi>per Cent.</hi>
+profit, one with the other, clear of all Charges; which will amount to 83 thouſand pounds. But in
+regard ſome part of it may be carried out by Stran<g ref="char:EOLhyphen"/>gers, or for Strangers Accounts, and ſo the
+profit ariſing thereby may remain abroad, and never be returned to <hi>England;</hi> I ſhall
+eſti<g ref="char:EOLhyphen"/>mate the profit thereof but at 60 thouſand pounds; which is ſo much more addition to the
+Nations Stock. And here by the way, it may be obſerved, That the Kingdom hath a greater
+advantage, when the Trade is driven by the <hi>Engliſh</hi> Merchant, than when it is carried on
+by Strangers; all the Profits ariſing by the Trade of the one, is brought back to
+<hi>England;</hi> whereas the Profits of the other remain abroad. This I note to rectifie the
+miſtake of ſome that ſay, <hi>It is all one to the Kingdom, ſo the Trade be carried on,
+whe<g ref="char:EOLhyphen"/>ther it be by the</hi> Engliſh, <hi>or by ſtrangers; as alſo to evidence, That it is the
+Nations Intereſt to encourage the Kings Subjects in their Trade, preferably to
+Strangers.</hi>
+               </p>
+               <p>The ſaid goods are tranſported <hi>in Engliſh-ſhipping,</hi> whereby an Employment is
+given to a great number of Ships; the very freight of which being about 5000 Tuns, cannot amount to
+leſs than 20 thouſand pounds; which is ſo much further Addition to the Stock of the
+Kingdom.</p>
+               <p>From the Conſideration of the Goods returned from <hi>India,</hi> and from hence tranſported
+into Foreign parts, will ariſe a full and clear anſwer to the Objection made againſt this
+Trade, becauſe of the quantities of Gold and Silver ſent out for the carrying it on: for what
+hath been noted before in the general notion of Trade, will in Fact be demonſtrated.</p>
+               <pb n="12" facs="tcp:97277:8"/>
+               <p>As there was carried out from <hi>England</hi> to <hi>India,</hi> about 420 thouſand pounds in
+Bullion; ſo there is tranſported from <hi>England</hi> into Foreign Countreys, of Goods brought
+from <hi>India,</hi> the value of 830 thouſand pounds; which with the profit ariſing there<g ref="char:EOLhyphen"/>upon
+to Engliſh-men, amounts to 860 thouſand pounds. So that if all other Foreign-Trade did export
+ſufficient in Com<g ref="char:EOLhyphen"/>modities of the Product and Manufacture of <hi>England,</hi> to purchaſe and
+ſatisfie for all the Commodities they imported; <hi>There muſt undeniably be</hi> 470
+<hi>thouſand pounds in Bullion brought in, and added to the Treaſure of the Kingdom every year,
+by the</hi> India <hi>Trade</hi> (when it is ſo fully carried on,) over and above the bene<g ref="char:EOLhyphen"/>fit of
+all the <hi>India</hi> Commodities ſpent and conſumed in the Kingdom, and of the building,
+employing, and maintaining ſo great a number of Shipping. <hi>And thus the ſending out of our
+Treaſure encreaſeth it;</hi> whereas to coop it up, would render it wholly uſeleſs. Had we
+all the Gold and Silver in the World, in this Iſland, if it were abſolutely kept and confined
+within the Kingdom, it would nei<g ref="char:EOLhyphen"/>ther greaten our Trade, nor render us more formidable in Strength
+and Power.</p>
+               <p>If it be alledged, That ſuch an Addition of Treaſure every year brought into the Nation,
+would certainly be more viſible, and make a greater plenty of Money; whereas there ſeems to be
+ra<g ref="char:EOLhyphen"/>ther a decreaſe and decay of our Treaſure, and a ſcarcity of Money: I anſwer, Though, as
+before noted, it is my ſenti<g ref="char:EOLhyphen"/>ment that there is as much Treaſure, I mean Gold and Silver, in
+the Kingdom, as ever; yet, ſuppoſe it were otherwiſe, and that the Nation did decreaſe in
+their Treaſure, Whence doth it ſo come to paſs? not from the <hi>Eaſt-India</hi>-Trade,
+that is apparent. If all other Foreign Trades were upon a Ballance, and that their exports of the
+Product and Manufacture of <hi>England</hi> did anſwer all their Imports, ſo that the proceed
+of <hi>India</hi>-Goods exported, might return in Bullion; this Kingdom in few years would have the
+greateſt Treaſure of any Nation in <hi>Europe.</hi> But if ſome other Foreign Trades do
+waſt and conſume our Treaſure, let us lay the Saddle on the right Horſe, and endeavour to
+find out expedients to prevent it. In the mean time it would be deſtructive to ſtop the current
+of our ſupplies, by breaking in upon, or obſtructing the courſe of the
+<hi>Eaſt-India</hi>-Trade; by which if the Kingdom had not been ſupplied, all its Treaſure
+might ere this have been ex<g ref="char:EOLhyphen"/>hauſted.</p>
+               <pb n="13" facs="tcp:97277:8"/>
+               <p>Some have ſuggeſted, That if there were not ſo much <hi>India</hi>-Goods to tranſport,
+there would be more of our Native Com<g ref="char:EOLhyphen"/>modities and Manufactures tranſported and vended abroad.
+This can be no other than a fancy and imagination; and will appear to be very groundleſs, when it
+is conſidered, <hi>That there are other Nations that Trade to</hi> India <hi>beſides the
+Engliſh;</hi> and if the Engliſh did not ſupply the Foreign Markets with
+<hi>India</hi>-Commodities, thoſe other Nations, our competitors in that Trade, would do it; and
+the Kingdom would loſe the certain profit it now hath, and be diſappointed of what theſe men
+imagine it might have. If none could Trade to <hi>India</hi> but the Engliſh, and that other
+Coun<g ref="char:EOLhyphen"/>treys could not be ſupplied with Commodities, but muſt take what the Engliſh would bring
+them; then indeed it would not be altogether of ſo great concern to the Kingdom, whether the
+Engliſh traded there or no, ſo long as they could furniſh ſuch Countreys with Engliſh
+Goods, and make them content to take them or none. But ſuch a time is not like to be; and
+therefore it cannot be adviſable to caſt off, or diſcourage the Eaſt-<hi>India.</hi> Trade
+on ſuch groundleſs conceits.</p>
+               <p>Thus I have given you a State of the Eaſt-<hi>India</hi>-Trade, where<g ref="char:EOLhyphen"/>by it is
+demonſtratively evident, how advantageous it is to the Kingdom in all the reſpects before
+mentioned, As it occaſions the building, and gives Employment to ſo great a number of Ships of
+greater burden and ſtrength than any other Trade; and as it brings an Addition annually of above
+500 thouſand pounds to the Stock of the Kingdom in its direct and ordinary courſe, beſides 80
+thouſand pounds more in Conſequence by other Trades; and as it ſaves the Kingdom, near (if
+not above) 400 thouſand pounds annually, of what otherwiſe it would loſe or expend.</p>
+               <p>But though the Eaſt-<hi>India</hi>-Trade be ſo beneficial and advanta<g ref="char:EOLhyphen"/>geous to the Kingdom
+in it ſelf; may it not, ſay ſome, be more im<g ref="char:EOLhyphen"/>proved and carried on with greater advantage to
+the publick in ſome other way, than by a Company in a Joint-Stock? I proceed there<g ref="char:EOLhyphen"/>fore in
+compliance with your deſire, to ſay ſomething of the ſecond thing propoſed.</p>
+            </div>
+            <div type="part">
+               <pb n="14" facs="tcp:97277:9"/>
+               <head>
+                  <hi>Secondly,</hi> That the Eaſt-<hi>India</hi>-Trade cannot ſo well be ſecured and
+improved for the benefit and advantage of the Kingdom in any other way, as by a Company in a
+Joynt-ſtock.</head>
+               <p>THE practice and experience of other Nations in the Eaſt-<hi>India</hi>-Trade, might here
+alſo be brought in to give con<g ref="char:EOLhyphen"/>vincing evidence on the behalf of a Joynt-Stock: No other Na<g ref="char:EOLhyphen"/>tion
+trading otherwiſe, <hi>except the</hi> Portugals, <hi>who are almoſt beaten out of the
+Trade.</hi> And though the Example of wiſe and politick Governments in their Methods of
+tranſacting affairs, ought to have a due regard, and in no wiſe to be ſlighted, eſpecially
+when accompanied with ſucceſs in a long tract of time; yet in the pre<g ref="char:EOLhyphen"/>ſent caſe, I ſhall
+not inſiſt thereon, but confine my ſelf to the Na<g ref="char:EOLhyphen"/>ture and Reaſon of the thing it
+ſelf.</p>
+               <p>None that are acquainted with the Trade of <hi>India,</hi> but muſt know, That there is no
+coming for any <hi>European</hi> people to any place in thoſe Countreys for Trade, without making
+Preſents to the Kings, Princes, Governors, and great Men at their firſt com<g ref="char:EOLhyphen"/>ing, and obtaining
+their licenſe and permiſſion; and that there is a neceſſity of purchaſing or hiring
+ſome great Houſe to abide in for the ſecurity of their perſons and goods, during their
+abode, at every reſpective place.</p>
+               <p>The <hi>Eaſt-India</hi> Company have been <hi>at vaſt Charges and Hazards,</hi> not only to
+procure a freedom and <hi>liberty of Trade,</hi> with many great <hi>Priviledges and
+Immunities,</hi> both from the <hi>Great</hi> Mogul, and very many other Kings, Princes and
+Governours, but likewiſe for the <hi>ſecurity</hi> of their <hi>Jactors, Eſtates and
+Trade,</hi> to purchaſe, build and maintain great Houſes, and Store-houſes, in all the Places
+of their Reſidences, which are called Factories; <hi>and in ſome Places, as at</hi> Fort St.
+George, Bombay, <hi>and St.</hi> Helena, <hi>to make conſiderable Fortifications, and to keep
+large Garriſons.</hi>
+               </p>
+               <p>There are two Ways or Methods of carrying on a Foreign Trade, beſides that of a Company, and a
+Joint-Stock: Firſt, That which is called an open Trade, when all perſons are left free to Trade
+or not to Trade, and are confined <hi>to no particular Rules</hi>
+                  <pb n="15" facs="tcp:97277:9"/>and Methods in the manner of their Trading, but every one may manage his matters
+in ſuch a way as to him ſeems good; and ſuch is the Trade to <hi>France, Spain, Portugal</hi>
+and <hi>Italy.</hi> The other is called a Regulated Trade, where there is a Company (without a
+Joynt-Stock) that hath power to make ſome general Rules, as to the publick manner and method of
+Trading, and to raiſe Impoſitions on the Trade, for defraying neceſſary Charges in
+Reference to the Security thereof; but yet every particular perſon is at liberty to Trade or not
+to Trade, and to manage his own pri<g ref="char:EOLhyphen"/>vate Stock and Trade, without being limited or confined either
+in quantity, quality, or price of Goods, and ſuch is the manner of the <hi>Turky</hi>-Company.
+Now it is to be examined, Whether the <hi>Eaſt-India</hi>-Trade can be ſo well ſecured and
+improved for the Publick good in either of theſe ways as in the way of a Company and a Joint
+Stock.</p>
+               <p>
+                  <hi>Firſt,</hi> If the Trade be left open, <hi>will not all the Priviledges and Immunities
+purchaſed at great expence by the</hi> Eaſt-India-<hi>Company, be either loſt, or elſe
+rendred void and inſignificant?</hi> When every man is left to ſhift for himſelf, it will be,
+as to the National Intereſt, according to the Proverb, <hi>That which is every mans buſineſs,
+will be no mans buſineſs;</hi> when there is none by particular obligation of place, duty, and
+intereſt, engaged to mind the general ſecurity and priviledge of the <hi>Engliſh</hi>-Trade,
+but every one minds only his own private concern, the National Honour and Intereſt will decline.
+In the giving of Preſents to Kings and Governours, to obtain grea<g ref="char:EOLhyphen"/>ter Priviledges, and quicker
+diſpatch, one will vye upon another, and ſome may be ſo far Tranſported for private
+advantage, as to endeavour by Preſents to obtain the Intervention of the Powers there, to hinder
+and obſtruct the Trade of their fellow-ſubjects, thereby to advance their own. Will not the
+Kings and Governours of thoſe Countreys, and other Nations our Competitors in the
+<hi>India</hi>-Trade, take all opportunities to make their advantages, and to put injuries and
+hardſhips upon the <hi>Engliſh,</hi> when they find them divi<g ref="char:EOLhyphen"/>ded for want of united Counſels
+or ſtrength to right themſelves? Beſides in ſelling and buying, every one will ſtrive to
+ſupplant the other, and ſo give occaſion to the <hi>Indians</hi> to make extraordinary
+advantage by raiſing the prices of <hi>Indian</hi>-Commodities, and falling the prices of
+<hi>Engliſh</hi>-Goods; of all which there hath already been too ſad experience in three or
+four years of open Trade, from 1653, to 1657, In which time the <hi>Engliſh</hi> began to loſe
+their ancient Ho<g ref="char:EOLhyphen"/>nour
+<pb n="16" facs="tcp:97277:10"/>and Eſteem in <hi>India,</hi> and were much ſlighted in compariſon of
+what they were before, under a company; and many Indignities and wrongs were put upon them in
+ſeveral places in <hi>India</hi> by the Kings and Governours, forcing the <hi>Engliſh</hi> to
+ſell their Goods, and take others, at ſuch rates and prices as they pleaſed: And after
+con<g ref="char:EOLhyphen"/>tracts and agreements made, when the <hi>Engliſh</hi> have required perfor<g ref="char:EOLhyphen"/>mance, inſtead
+thereof ſome of the <hi>Engliſh</hi> Commanders have been put to death, and their Ships and
+Goods ſeized, and the reſt of their Seamen ſcornfully ſent away, without means of
+redreſs. <hi>Beſides, during that time, the Injuries from the</hi> Dutch <hi>in hindring the
+Trade, and ſeizing the Ships and Eſtates of the</hi> Engliſh, <hi>were far more fre<g ref="char:EOLhyphen"/>quent,
+and more often reiterated.</hi> That ſubtil People well knowing how to make their advantage, by
+ſetting one <hi>Engliſh</hi> mans intereſt againſt anothers; inſomuch, that for 15 or 16
+<hi>Engliſh</hi> Ships and their Cargoes, which the <hi>Dutch</hi> had taken, (if I miſtake
+not,) they only gave ſatisfaction for four, and by means of the <hi>Engliſh</hi> men
+Intereſted in thoſe four, obtained a National diſcharge for all the reſt. A certain
+perſon, whom I forbear to name, that was much concerned in the ſaid four Ships, or ſome of
+them, hath ſometime made his brags, <hi>That he by his Intereſt and prevalency with the late
+<g ref="char:V">Ʋ</g>ſurper, procured the ſigning that diſcharge;</hi> which debarred all thoſe
+<hi>Engliſh</hi> concerned in the other twelve Ships, from any claim or demand of ſatisfaction:
+and thereby, though the <hi>Engliſh</hi> Nation loſt ſixteen Ships, the <hi>Dutch</hi> paid
+but for four. The private perſons Intereſſed in thoſe Ships, made near <hi>Cent. per
+Cent.</hi> profit, and the others loſt all, both Principal and Profit.</p>
+               <p>Alſo in thoſe three or four years of open Trade, the Trade it ſelf was rendred very
+unprofitable; for whereas, under the Com<g ref="char:EOLhyphen"/>pany in a Joynt-ſtock, the Trade generally produced for
+every 100 <hi>l.</hi> ſent out and inveſted in <hi>India,</hi> 300 <hi>l.</hi> 250 <hi>l.</hi>
+or when leaſt 200 <hi>l.</hi> here in <hi>England;</hi> In the open time, the Trade was brought
+to that paſs, that 100 <hi>l.</hi> laid out in <hi>India,</hi> did hardly yield in
+<hi>England</hi> 125 <hi>l.</hi> and many loſt of their principal Stocks, beſides about two
+years Intereſt, and the risk and adventure of the Seas; and this not by reaſon of the quantity
+of Ships and Goods ſent to, and returned from <hi>India</hi> in thoſe times, (for there hath
+been twice as much ſent out and brought home by the Company of late years) but from the raiſing
+the prices of <hi>India</hi>-Goods in the Country, one man vying upon another to get a quick
+diſpatch; and as they did endeavour to ſupplant one another in <hi>India,</hi> ſo alſo in
+their Markets in <hi>Europe;</hi>
+                  <pb n="17" facs="tcp:97277:10"/>and hence it was that ſeveral Ships ſet out from <hi>England,</hi> did not
+return to <hi>England,</hi> but were directed to ſail from <hi>India,</hi> directly to ſome
+other Forreign-parts, and ſo the Kingdom was deprived of the Cuſtoms, and other advantages
+thereby.</p>
+               <p>From the diſorders and ill ſucceſs of the open Trade, it was, That in <hi>Anno</hi> 1657,
+all perſons being generally convinced, that the only profitable way for the management of the
+<hi>Eaſt-India</hi>-Trade, was in a Company and a Joynt-Stock, <hi>did conſent and agree to lay
+aſide all private Trade, and to unite in that way.</hi> Accordingly Books were laid open for all
+perſons in the Nation to ſubſeribe what Stock they pleaſed to adventure in the ſaid
+Trade: And it may be noted, that ſuch was the diſrepute and inconveniences the former open time
+had brought the Trade into, (as together with ſome in<g ref="char:EOLhyphen"/>juries and loſſes ſuſtained from
+the <hi>Dutch</hi>) kept the value of the Stock in the Worlds eſteem for ſeveral years, much
+below its firſt principle. In or about <hi>Anno</hi> 1665, the Company did take a full and
+perfect Account and Ballance of all their Stock, Adventures, and Debts, and expoſed a
+Tranſcript thereof to publick view: the Stock then was apparently more worth than 130 <hi>per
+Cent.</hi> though at that time ſuch were the humours and fancies of people, that it was ſold by
+private perſons for 70 <hi>per Cent.</hi> or thereabouts; for which rea<g ref="char:EOLhyphen"/>ſon, though the Company
+did then lay open a Book of ſubſcriptions for all perſons that would adventure in the Trade,
+to write what ſum they pleaſed, yet every one did decline it. Since which time, though many
+Dividends have been made amongſt the Adventurers, yet the value of the Stock in its eſteem in
+the World hath advanced to 245 <hi>per Cent.</hi> though of late it is (as you ſeem to adviſe
+me) gone backward to 235 <hi>per Cent.</hi> notwithſtanding the ſafe arrival of all the
+Companies Ships this year.</p>
+               <p>From this ſhort Account of things, I leave it to all judicious per<g ref="char:EOLhyphen"/>ſons to conſider,
+Whether it be not inconſiſtent with the Kingdoms Intereſt, and whether it be not
+<hi>irrational and unjuſt,</hi> to lay open the <hi>Eaſt-India</hi> Trade? Inconſiſtent
+with the Kingdoms Intereſt, to part with, <hi>or hazard the loſs of all thoſe places of
+Strength, and thoſe Priviledges the</hi> Eaſt-India-<hi>Company now enjoy,</hi> but cannot
+maintain in an open Trade: Irrational, to make a ſecond trial after the experience of ſo many
+Inconveniences by the firſt; and unjuſt, to deprive the preſent Subſcribers in the
+<hi>Eaſt-India</hi> Stock, of their future advantage, that have run ſo many Hazards of their
+Stocks, and been at ſuch vaſt expences for the promoting and ſecuring the
+<pb n="18" facs="tcp:97277:11"/>Trade ſo avantagious to the Kingdom, and to open it to thoſe that have
+twice already refuſed to adventure therein.</p>
+               <p>I have been the briefer on this firſt Particular, becauſe I find very few ſo hardy as to
+expoſe their own reaſon in pleading for an open Trade. The <hi>Gentleman Barriſter</hi> (as
+he ſtiles himſelf) ſeem'd to queſtion, Whether it were a uſeful Trade to
+<hi>England?</hi> But if it were, intimates it ſhould be a <hi>Regulated Trade,</hi> and
+inſtances in that of the <hi>Turky-Company.</hi> It remains therefore to ſhew,</p>
+               <p>
+                  <hi>Secondly,</hi> That the <hi>Eaſt-India</hi>-Trade cannot ſo well be ſecured and
+improved for the Kingdoms advantage <hi>under a Regulation,</hi> as by a Company and a
+Joynt-ſtock. In reſerence to the ſecurity of the Trade, it muſt be noted, That in the
+<hi>Eaſt-Indies</hi> there are many, very many Kings and Governments; almoſt every place of
+Trade, (whereof there is a conſiderable number) is under a diſtinct <hi>Rajah,</hi> or King;
+and conſidering that other <hi>European</hi> Nations are ſtill watching to take all
+opportunities to diſtil into the minds of thoſe Kings ſlight and contemptuous thoughts of,
+and to incite them a<g ref="char:EOLhyphen"/>gainſt the <hi>Engliſh,</hi> either to exclude them from Trade, or to put
+many Hardſhips upon them; there is an abſolute neceſſity of frequent ap<g ref="char:EOLhyphen"/>plications to, and
+Treaties with thoſe Kings, and that the <hi>Engliſh</hi> ap<g ref="char:EOLhyphen"/>pear to them in ſome Port and
+Grandeur, as able to carry on conſi<g ref="char:EOLhyphen"/>derable Trade with them, and to force them to a performance
+of their Treaties and Agreements. <hi>The ſtate of affairs in</hi> Turky <hi>is far otherwiſe,
+where there is but one Prince, who hath an abſolute Do<g ref="char:EOLhyphen"/>minion in all his Territories;</hi> ſo
+that by one Ambaſſador at the Emperours Court, and two or three Conſuls at the places of
+Reſi<g ref="char:EOLhyphen"/>dences of Trade (whereof there is no great number) to hold Correſpondence with the ſaid
+Ambaſſador, all matters for the Se<g ref="char:EOLhyphen"/>curity and good of the Trade may be tranſacted.</p>
+               <p>This being premiſed, I ſhall take it for granted, that all true <hi>En<g ref="char:EOLhyphen"/>gliſh</hi> men
+would for the Honour and Benefit of their Countrey, have all the places of Strength, and all the
+Factories, Houſes, and Priviledges in <hi>India,</hi> which by the preſent Joynt ſtock of the
+<hi>Eaſt-India</hi>-Company, <hi>have been obtained, purchaſed and ſettled at the expence of
+two or</hi> 300 <hi>Thouſand pounds; and whereof the ſaid Ioint-ſtock are at preſent the
+Owners, Poſſeſſors, and En<g ref="char:EOLhyphen"/>joyers, to be upheld and maintained to the Nation; As alſo,
+that the ſaid places of Strength, Houſes and Priviledges, being juſtly and rightfully the
+Property of the Perſons Intereſted in the now Ioynt-ſtock, they ought not</hi> to be
+deveſted of the ſame
+<pb n="19" facs="tcp:97277:11"/>without giving them a due ſatisfaction and compenſation. If an
+<hi>Engliſh</hi>-man ought not to have any of his Ground or Eſtate in <hi>England</hi> taken
+away for publick uſe, without a Compenſation; and that Parliaments have been always very
+carefull in ſuch caſes to provide accordingly, as in the Bill for building the City; I do not
+ſee why an Engliſh-<hi>mans propriety in Forts, Houſes, and Eſtate (that is to ſay
+Priviledges in Foreign Countreys) is not as much his Right, as if it were within the Kingdom; and
+it is to be feared, that he that will not ſcruple to deveſt an</hi> Engliſh-<hi>man of his
+property abroad, will, if opportunity offer, make as little ſcruple to do it at home.</hi> I
+ſhall farther-take it for granted, That in reference to the preſent State of the Kingdom, it
+may not be improper to deſire the laying of a Tax on the people for the raiſing ſuch a ſum
+to make that Compenſation: I muſt therefore ſup<g ref="char:EOLhyphen"/>poſe, if thoſe perſons that preſs for
+a change and alteration of the manner of the Eaſt-<hi>India</hi>-Trade, be <hi>Engliſh</hi>-men
+and Friends to their Country; their intentions are, That the ſucceeding Trade ſhould both give
+a Compenſation, and maintain the growing Charge. <hi>I apprehend they deſign, that the now
+Ioint-ſtock ſhould ceaſe and determine, as to any farther Trade, ſave only to get in what
+Goods and Debts they have abroad,</hi> and that the Trade in future ſhould be left to be managed
+and carried on by par<g ref="char:EOLhyphen"/>ticular Perſons, according as every one ſhould think good to ad<g ref="char:EOLhyphen"/>venture,
+without Limitation or Reſtriction as to the quantity, qua<g ref="char:EOLhyphen"/>lity, and prices in buying and
+ſelling of Goods to be ſent out, or re<g ref="char:EOLhyphen"/>turned home; yet that there ſhould be a Company by Law
+eſta<g ref="char:EOLhyphen"/>bliſhed and impowr'd to raiſe impoſitions on the Trade, for the upholding and
+maintaining all the places of Strength, Factories and Priviledges that are now enjoyed, for the
+mutual and equal benefit and advantage of all the <hi>Engliſh</hi> that ſhall Trade thither;
+and for the ſame intent to entertain Negotiations, keep entercourſe, and make Treaties with the
+Kings and Governours in thoſe parts, as formerly: and alſo, that out of ſuch Impoſitions,
+ſo to be raiſed, a proportion ſhould be ſet out (which I conceive cannot be leſs than Ten
+thouſand pounds <hi>per Annum,</hi>) to be divided from time to time amongſt the preſent
+Adventurers, for the uſe and Loan of the ſaid Places, Factories, and Priviledges; and that all
+the reſt of the Money raiſed by the ſaid Impoſitions, be employed for ſupport of the
+charge of the Government, and defraying the growing charge of maintaining the ſaid places of
+Strength, Factories, and Priviledges,
+<pb n="20" facs="tcp:97277:12"/>and of all publick Negotiations and Treaties with the Kings of thoſe
+Countreys as aforeſaid: Whereof the ſaid Company ſhould be obliged to keep a due Account: And
+alſo that the ſaid Company ſhould be further authoriſed and impowered to make and
+eſtabliſh from time to time ſuch general Rules and Orders for the Regulation of the Trade, as
+ſhall be found convenient and neceſſary for the Intereſt of the Kingdom; un<g ref="char:EOLhyphen"/>to which, all
+perſons Trading into thoſe parts, ſhould be obliged to conform: All which is agreeable to the
+Inſtance propoſed of the <hi>Turky</hi>-Company.</p>
+               <p>Now let it be conſidered <hi>How uncertain and inſufficient ſuch a Method would be for the
+ſecuring the Trade to the</hi> Engliſh-<hi>Na<g ref="char:EOLhyphen"/>tion, in compariſon of that which is at
+preſent in a Company, and in a Ioynt-ſtock;</hi> for now there is a Stock or Fund of at leaſt
+a Million of pounds Sterling always engaged, and in the Power of the Governour, Deputy, and
+Committee, to make uſe of for the neceſſary defence of the Trade. But when this Stock is
+divided, and there remains nothing to anſwer the charge, but the Impoſitions daily raiſed on
+the Trade; It will not only be difficult to know what proportion to lay, but alſo it will be
+un<g ref="char:EOLhyphen"/>certain, what ever ſum is ſet by way of Impoſition to know whe<g ref="char:EOLhyphen"/>ther it will be
+ſufficient to anſwer the charge; for it depending arbitrarily on the pleaſure of particular
+perſons, <hi>whether they will trade or no, and for what value;</hi> the Money ariſing by
+ſuch Impoſitions, muſt be leſs or more according as the Trade is. There will be a certain
+and conſtant charge, beſides intervening occa<g ref="char:EOLhyphen"/>ſions that may encreaſe it; and an uncertain
+and inconſtant Re<g ref="char:EOLhyphen"/>venue to anſwer it; and it will undoubtedly fall out, <hi>That when the
+charge is greateſt, the Receipts will be leaſt; if a time of War ſhould happen</hi> (and
+ſuch a time we may fear will come, and ought to provide for before hand) the charge of raſing
+and maintaining a greater number of Souldiers, and ſupplying all ne<g ref="char:EOLhyphen"/>ceſſaries for ſecurity
+againſt an Enemy, muſt be much augmented. <hi>In the laſt</hi> Dutch-<hi>War the Company at
+one time were neceſſitated to raiſe</hi> 6000 <hi>Souldiers for the ſecurity and defence
+of</hi> Bombay <hi>a<g ref="char:EOLhyphen"/>gainſt the</hi> Dutch; and yet in ſuch a time there will be little or no
+Trade, and ſo conſequently little will be raiſed by the Impoſiti<g ref="char:EOLhyphen"/>ons: Every man will pull
+his neck out of the Collar, and when hazards are great, few will adventure. If the ſpring from
+whence the ſupplies of Money ſhould come, be dried, what can be ex<g ref="char:EOLhyphen"/>pected?
+<pb n="21" facs="tcp:97277:12"/>
+                  <hi>Point d'argent point de Suiſſe,</hi> without Money no Souldi<g ref="char:EOLhyphen"/>ers can be
+had; and ſo it will neceſſarily follow, that all muſt be loſt, and fall into our Enemies
+hands; which how diſhonoura<g ref="char:EOLhyphen"/>ble, as well as how prejudicial to the Kingdom, that would be, let
+all men judge. Could we ſuppoſe (which yet can hardly be ſuppoſed) that in ſuch an
+Emergence the Kingdom ſhould be taxed extraordinarily to raiſe a ſupply particularly for this
+ſervice? Would it not be very hard upon the people, when they had other preſſures upon them,
+to pay it? and yet without ſupplies, all our Trade to <hi>India,</hi> and all our Intereſt
+there, would be loſt; and how great a loſs and weakning that would be to the Kingdom, may be
+judged by what hath been before mentioned of the advantages and benefits ariſing to the Kingdom
+from the <hi>Eaſt-India</hi>-Trade.</p>
+               <p>But ſuppoſe ſome expedient could be found for ſecurity of the Trade of the
+<hi>Engliſh</hi> to <hi>India,</hi> and of their Intereſt there, in as certain a way as it is
+now by a Company in a Joynt-ſtock; which (pardon me, Sir, if I ſay) I believe is impoſſible
+without a pub<g ref="char:EOLhyphen"/>lick charge on the Kingdom. Yet in the next place, it is to be conſidered, whether
+in probability the Trade may be as much or more improved for the Publick and National benefit under
+a Regu<g ref="char:EOLhyphen"/>lation, than by a Company in a Joynt-ſtock.</p>
+               <p>The Gentleman <hi>Barriſter</hi> inſinuates in the cloſe of his late Let<g ref="char:EOLhyphen"/>ter, <hi>That
+the</hi> Eaſt-India-<hi>Trade might be ſo managed under a Re<g ref="char:EOLhyphen"/>gulation, that five times the
+Trade might be gained, and the price of our own manufactures of Cloth, and others advanced by the
+multitude and freedom of buyers; and the price of goods imported, much leſſened to the</hi>
+Engliſh, <hi>and much more Trade with</hi> India-<hi>Commodities gained to other parts of the
+World.</hi> But by the Gentlemans favour I muſt crave leave to be of a contrary opinion.</p>
+               <p>In the firſt place, I cannot comprehend how it is probable, that particular and private
+perſons (for the Trade will be carried on only by ſuch, under a Regulation) ſhould gain ſo
+great a Trade, much leſs <hi>more, and five times more,</hi> than a Company in a Joynt-ſtock.
+The Trades that are to be gained, whereby to render the <hi>Eaſt-India</hi>-Trade yet more
+advantagious to the King<g ref="char:EOLhyphen"/>dom in ſome reſpects, than at preſent it is, are chiefly the Trades
+to <hi>China</hi> and <hi>Japan;</hi> at which places were our Trade once well ſettled in all
+likelyhood more conſiderable quantities of our Woollen-Manufactures might be there vended, and
+from thence in
+<pb n="22" facs="tcp:97277:13"/>return thereof, both Gold, Silver, and Copper might be brought to ſupply at
+leaſt (in a great meaſure) the Trade in other parts of <hi>India,</hi> without carrying out
+ſo much from <hi>Europe:</hi> But theſe Trades are not ſo eaſily gained as ſome may
+ſancy; great hazards of conſiderable Stocks muſt be run, and large disburſements in
+Expences made in order thereto; one deſign laid and put in pra<g ref="char:EOLhyphen"/>ctice to accompliſh it, after
+ſuch hazards and disburſements, may prove ineffectual, and the labour and charge all loſt.
+Another way and method muſt be eſſayed; this cannot be expected or hoped for from particular
+perſons; their Capitals cannot bear ſuch ex<g ref="char:EOLhyphen"/>pences, nor will they ſubject themſelves to
+ſuch hazards which might ruine them in their Eſtates. If it could be ſuppoſed that ſome
+few ſhould adventure to make an eſſay, we could not imagine that it ſhould be in a national
+way; I mean in ſuch a manner as might repreſent the <hi>Engliſh</hi>-Nation conſiderable to
+the Princes of thoſe Countreys, and ſo procure from them a ſettlement for the Trade of the
+<hi>Engliſh</hi> in their Dominions, and one diſappointment would diſcourage private
+perſons from any future attempt. The pre<g ref="char:EOLhyphen"/>ſent <hi>Eaſt-India</hi> Company having ſo great a
+Joynt-ſtock to bear them out, have made often Trials to gain theſe Trades. As to the Trade of
+<hi>China,</hi> after many attempts, hazards and expences, they are in ſome good hope to
+ſucceed; and as to that of <hi>Japan,</hi> though they have met with very great difficulties and
+diſappoint<g ref="char:EOLhyphen"/>ments in the attempts they have made, one undertaking about three years ſince for
+the gaining of that Trade, though deſigned with all the care and circumſpection poſſible,
+proved ineffectual, <hi>to the Companies loſs of at leaſt</hi> 50 <hi>Thouſand Pounds;</hi>
+which, though a very great Sum, was not ruinous to any, becauſe of the great number of perſons
+that bare it, and the largeneſs of the Fund out of which it is ſupplyed: Such a loſs would
+have undone pri<g ref="char:EOLhyphen"/>vate perſons, and have rendred them incapable of any future at<g ref="char:EOLhyphen"/>tempt. But with a
+Company in a Joynt-Stock it is otherwiſe, they are yet proſecuting the deſign, and contriving
+and forming new Methods to bring it about; and it is probable, that by un<g ref="char:EOLhyphen"/>wearied endeavours with
+great hazards and charge, they may in proceſs of time accompliſh it. But without a Company in a
+Joynt-ſtock, we may bid adieu to all hopes of ever obtaining a ſettlement of Trade in
+<hi>China</hi> and <hi>Japan</hi> for the <hi>Engliſh</hi> Nation.</p>
+               <p>In the next place, that is to be examined and enquired into, which our <hi>Barriſter</hi>
+particularly ſuggeſts, <hi>viz. That ſuch a Regu<g ref="char:EOLhyphen"/>lation
+<pb n="23" facs="tcp:97277:13"/>would advance the price of our own Manufactures of Cloth and others, by the
+multitude and freedom of buyers, and much leſſen the price of Goods Imported to the
+Engliſh,</hi> &amp;c. If I do not miſtake, that which he here intended is, That all perſons
+being at liberty to Trade for <hi>India</hi> under a Regulated Company, there would be more buyers
+of Cloth and other Goods in <hi>England</hi> to ſend to <hi>India,</hi> and ſo the Prices would
+be raiſed here by the multiplicity of Buyers; and on the other hand, the Prices of
+<hi>India</hi>-Goods would fall, and be leſ<g ref="char:EOLhyphen"/>ſened in <hi>England</hi> for the ſame reaſon;
+<hi>viz.</hi> becauſe of the multi<g ref="char:EOLhyphen"/>plicity of Sellers. From hence it is eaſie to collect, that
+the perſon from whom our <hi>Lawyer</hi> took his Information touching Trade, was no Merchant,
+but ſome Clothier or Shop keeper, that had very little knowledge or underſtanding of the
+Kingdoms Intereſt in Trade, and took his meaſures from ſome private and narrow concern: for
+he looks no further than the buying and ſelling in <hi>England.</hi> He would have the
+<hi>Engliſh</hi> Merchant to buy dear and ſell cheap; to buy Cloth dear of the Clothier, and
+ſell Callico cheap to the <hi>Linnen-Draper;</hi> and he deſires a freedom of Trade, that the
+multiplicity of Buyers for the one, and of Sellers for the other, might effect it; and thereby (as
+he would have us believe) the Kingdom would be enriched; whereas upon a due and ſerious
+Examination, it will be found, according to the Maxims of Trade, and dictates of Rea<g ref="char:EOLhyphen"/>ſon, to be
+quite otherwiſe. Who is there that hath in any compe<g ref="char:EOLhyphen"/>tent meaſure ſtudied and conſidered
+Trade, in reference to the King<g ref="char:EOLhyphen"/>doms Intereſt, but knows, <hi>that all buying and ſelling
+within the Kingdom from one</hi> Engliſh <hi>man to another, is but a changing of hands, and doth
+neither add to, nor diminiſh the Stock or Riches of the Nation;</hi> it muſt be the dear
+ſelling, <hi>or rather the ſelling of great quantities of our native Commodities and
+Manufactures in Foreign parts, &amp; the cheap purchaſing by the</hi> Engliſh <hi>of
+Commodi<g ref="char:EOLhyphen"/>ties in Foreign-Countries, whereby the Kingdom is enriched.</hi> And how inconſiſtent
+herewith the Gentlemans notion is of dearer buying and cheaper ſelling in <hi>England,</hi> by
+means of a free Trade under a Regulation, will appear, if you pleaſe to turn the Tables, and
+apply that to <hi>Engliſh</hi>-mens ſelling and buying in <hi>Eaſt-India,</hi> which he doth
+to their buying and ſelling in <hi>England.</hi> Engliſh <hi>Cloth and other Goods will fall
+and be leſſened in price in</hi> India, <hi>becauſe of the multiplicity of Sellers there,
+and</hi> India <hi>Goods, will riſe and be augmented in their Prices in</hi> India, <hi>becauſe
+of the multitude &amp; freedom of Buyers there:</hi> So that upon that very ground and rea<g ref="char:EOLhyphen"/>ſon
+<pb n="24" facs="tcp:97277:14"/>which the Gentleman brings for a freedom of the Trade in op<g ref="char:EOLhyphen"/>poſition to the
+Company in a Joint Stock, it is very apparent that it is the Kingdoms Intereſt not to hearken to
+him; for pray conſi<g ref="char:EOLhyphen"/>der, what the iſſue and conſequence of this would be at the long-run.
+The particular <hi>Engliſh</hi> men, Traders to <hi>India,</hi> vye upon one ano<g ref="char:EOLhyphen"/>ther in the
+buying of their Cloth, and other Goods in <hi>England,</hi> and ſo for one year or two (it may
+be) raiſe the Prices in <hi>England,</hi> and on the other hand, in <hi>India</hi> they fall the
+price, and under-ſell one another to get off their Goods, and make Returns; ſome hereby will
+loſe by their Goods, ſelling cheaper than they coſt; others will not be able to put off their
+Goods, and ſo can make no Returns, and be either neceſſitated to let their Ships come home
+dead Freighted, or to take up Money, leaving their Goods in pawn, and ſo not on<g ref="char:EOLhyphen"/>ly pay a high
+Intereſt, but hazard the ſpoiling of their Goods in thoſe hot Countries; when all or moſt
+of the particular Traders ſhall on this Account find a loſs by their <hi>Engliſh</hi> Goods,
+What pro<g ref="char:EOLhyphen"/>bability is there that they ſhall continue to ſend any, and ſo that the Exportation
+of our <hi>Engliſh</hi> Manufactures ſhould encreaſe? <hi>The Company in the Ioint-Stock have
+managed their Affairs with ſuch Prudence, and with ſo great regard to the Kingdoms Inte<g ref="char:EOLhyphen"/>reſt,
+that from</hi> 100 <hi>to</hi> 400 <hi>Clothes at moſt, which were ſent in former times, they
+now ſend Annually</hi> 400 <hi>whole broad Cloaths, and upwards,</hi> and are ſtill
+endeavouring to enlarge the vend as much as poſſible. The way to attain which, is not by ſuch
+means to raiſe the Prices in <hi>England</hi> on <hi>Engliſh-men</hi> Tranſporters, nor by
+ſuch a cheap ſelling abroad, as renders the <hi>Engliſh</hi> Merchant a loſer, <hi>for that
+cannot continue</hi> but by an induſtrious endeavour to introduce the uſe of them in thoſe
+Countries, and by gaining and ſetling Trade in thoſe places where our Drapery is moſt
+uſeful and vendible; and that a Company in a Joint-Stock is far more capacitated for this than
+private perſons, is not only deducible from Reaſon, but evidenced from Experience.</p>
+               <p>As to Goods Imported from <hi>India,</hi> and ſold in <hi>England,</hi> the multitude of
+Buyers in <hi>India</hi> raiſing the Prices there, and of Sel<g ref="char:EOLhyphen"/>lers in <hi>England,</hi>
+leſſening the Prices here, cannot but be very con<g ref="char:EOLhyphen"/>trary to the Kingdoms Intereſt. And this
+will appear demonſtra<g ref="char:EOLhyphen"/>tively, if you conſider, <hi>That not above one part of four of the Goods
+brought from</hi> India <hi>into</hi> England <hi>are here conſumed, the other thrée
+fourths are Tranſported into Forreign parts.</hi> Now if the Prices of the one fourth part for
+the Conſumption of <hi>England</hi> be leſſened and
+<pb n="25" facs="tcp:97277:14"/>brought down, the like muſt inevitably follow <hi>for the other three fourths
+that are ſent abroad.</hi> An <hi>Engliſh</hi>-man ſends out Four hun<g ref="char:EOLhyphen"/>dred pounds, or the
+value thereof, and with it purchaſeth Goods in <hi>India,</hi> and brings them for
+<hi>England;</hi> ſuppoſe one fourth part of thoſe Goods are ſold for the Conſumption of
+the Kingdom; whether they be ſold by the Merchant to the Shop-keeper, for 120 <hi>l.</hi> or for
+200 <hi>l. It is all one as to the Kingdoms concern; for in reality they ſtand the Nation in no
+more than what they coſt in</hi> India, <hi>and that is only</hi>} 100 <hi>l.</hi> The Merchant,
+or the Shop-keeper, or the Conſumer, may have more or leſs, which is all the ſame thing as to
+the Nati<g ref="char:EOLhyphen"/>ons Concern. But as for the other three fourths, if they be ſold for Foreign Markets
+ſo cheap, that they yield but 360 <hi>l.</hi> then the Kingdom gets only twenty <hi>per
+Cent.</hi> thereon, whereas if they be ſold for 600 <hi>l. the Kingdom gets</hi>} 100 <hi>per C.
+<hi>In the caſe of an</hi>
+                  </hi> Engliſh <hi>mans Trading with Foreigners, what the</hi>
+Engliſh <hi>Merchant gets, the Kingdom gets,</hi> it being ſo much addition to the Publick
+Stock; ſo that the Nation would loſe by the cheap ſelling of <hi>India</hi> Commo<g ref="char:EOLhyphen"/>dities in
+<hi>England,</hi> and the real Intereſt of the Kingdom is, <hi>that the</hi> Engliſh
+<hi>Merchant ſhould buy them cheap in</hi> India, <hi>and ſell them dear in</hi> Europe, which
+the Gentleman's own Argument evidenceth to be moſt probably effected by a Company in a
+Joint-Stock.</p>
+               <p>Beſides, as to the building and maintaining of Ships of great bur<g ref="char:EOLhyphen"/>den, and proper for warlike
+ſervice to be made uſe of for defence of the Kingdom on occaſion, which is very much the
+publick Intereſt, it cannot be imagined that private particular perſons ſhould ever be able
+to advance the ſame in any proportion to what the <hi>Eaſt-India</hi>-Company in a Joint-Stock
+hath done.</p>
+               <p>Further, the <hi>Eaſt-India</hi> Trade in a Company, and a Joint-Stock, is far more National
+as to the number of perſons that have benefit thereby, <hi>than poſſibly it could under a
+Regulation;</hi> for then none could Trade to <hi>India <hi>but Merchants that underſtood the
+Trade,</hi>
+                  </hi> and not all Merchants neither, but ſuch only as had great Eſtates, and were
+able to ſtay two years at leaſt out of their Money; which few are in a capacity to do. So that
+the Trade would be confined into a few hands, (100 or 150 at moſt,) whereas, now it is in a
+Com<g ref="char:EOLhyphen"/>pany and Joynt-Stock, <hi>Noblemen, Clergy-men, Gentlemen, Widows, Orphans, Shop-keepers, &amp;
+all others, may have Stocks there, and reap equal benefit thereby</hi> There are at this day about
+<pb n="26" facs="tcp:97277:15"/>Six hundred Perſons which appear on the Companies Books to be Intereſſed
+in the <hi>Eaſt-India</hi> Stock, and under them, it may be many more; whereas, if the Trade were
+put under a Regulation, three fourths, or more, or of thoſe perſons could have no Intereſt in
+it, or benefit by it.</p>
+               <p>I ſhall not farther enlarge on this ſubject, and beg your excuſe, that I forbear to ſay
+any thing of the third particular you menti<g ref="char:EOLhyphen"/>on in yours, <hi>viz.</hi> Whether ſome Orders and
+Rules may not be neceſſary to be Eſtabliſhed for the Improvement of the
+<hi>Eaſt-India</hi> Trade, in a Company with a Joynt-Stock, other than what at preſent the
+Company is in the exerciſe of. I have in the general told you my thoughts freely, that a Company
+with a Joynt-Stock is in my apprehenſion the beſt way for the Management of that Trade to the
+Kingdoms advantage. Some reaſons I have given you, that induce me to be of this Judgment, which I
+leave to your Conſide<g ref="char:EOLhyphen"/>ration.</p>
+               <p>
+                  <hi>For a cloſe, give me leave by way of Enquiry, to ask you, what ſhould be the reaſon,
+that the preſent</hi> Eaſt-India. <hi>Company hath ſo many Enemies, and is ſo much talked
+againſt amongſt almoſt all ſorts of men?</hi>
+               </p>
+               <p>
+                  <hi>Is it becauſe ſome Perſons that would not ſubſcribe at the be<g ref="char:EOLhyphen"/>ginning of the
+Stock, nor yet afterwards, when the Books were laid open,</hi> are filled with Envy at the
+Companies proſperity, and would ruine all, becauſe they are excluded by their own default?
+There may be much in this, and yet any that will, may buy ſtock, according to the Market-price,
+when they pleaſe.</p>
+               <p>
+                  <hi>Is it from ſome averſeneſs or diſſatisfaction to the Government,</hi> that they
+cannot be content any thing ſhould proſper and thrive un<g ref="char:EOLhyphen"/>der it; This Stock having proſpered
+and advanced exceedingly ſince His Majeſties happy Reſtauration, beyond what it did before? I
+cannot believe that any are ſo vile and wicked.</p>
+               <p>
+                  <hi>Is it that ſome Perſons are influenced from our Neighbours,</hi> that have ſtill been
+labouring to turn every ſtone that might have a tendency to deſtroy the <hi>Engliſh
+Eaſt-India</hi> Trade; and they well know, if they can unhinge the preſent Joynt-Stock, they
+have done a great part of their work?</p>
+               <p>Is it that ſome apprehend, that under a pretence, that the Na<g ref="char:EOLhyphen"/>tion decays in their Stock,
+Rents, and Trade; Hue and Cry is like to be made to find out the cauſes and occaſions of it,
+and
+<pb n="27" facs="tcp:97277:15"/>ſo would ſet the <hi>Eaſt-India</hi> Company in the way to anſwer the
+charge, and ſtay farther purſuit?</p>
+               <p>Whence is it that the Clothiers and others in ſeveral Counties are ſo earneſt and
+clamorous againſt the ſaid Company, as if they were the occaſion of all the evil the Nation
+is under, by their not ſending abroad more of our Drapery; <hi>when as it is apparently known
+that the</hi> Eaſt-India <hi>Company have of late years bought and ſent to</hi> India, <hi>ten
+times more of our Drapery, than was uſually ſent in former times?</hi> So that they cannot
+occaſion the decreaſe of the vent of our Drapery, that have ſo much augmented it; and the
+true cauſes muſt lye elſewhere: <hi>Whether becauſe the Trade of</hi> France <hi>takes not
+off one tenth part of the</hi> Engliſh <hi>Drapery, it formerly did;</hi> or becauſe of the
+ſetting up the Woollen-Manufacture in <hi>Ireland,</hi> or for what cauſe, I leave others to
+judge; but am ſure the <hi>Eaſt-India</hi> Company could be no cauſe of the decay of the vent
+of our Woollen-Manufacture, though the cry is made againſt them.</p>
+               <p>
+                  <hi>A little thing may ſerve to deſtroy and ruine the Trade; but it will be a difficult
+matter to regain ſo advantagious a Trade to the Kingdom, if it were once loſt:</hi> And
+therefore I hope that all who ſeriouſly and ſincerely conſider the Kingdoms Intereſt,
+will be careful to prevent ſo great an evil, as the loſs of the <hi>Eaſt-India</hi> Trade
+would be to the Nation, <hi>&amp;c.</hi>
+               </p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
